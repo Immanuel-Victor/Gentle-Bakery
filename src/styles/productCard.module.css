@@ -1,0 +1,41 @@
+.productDiv{
+    display: flex;
+    flex-direction: row;
+    align-items: space-around;
+    justify-content: center;
+    
+}
+
+.products{
+    background-color: rgba(0,0,0,0.3);
+    border-radius: 10px;
+    height: 550px;
+}
+
+.products h1{
+    margin-top:20px;
+    padding: 10px;
+}
+
+.card{
+    display: block;
+    background-color: rgba(255,255,255,0.6);
+    min-height: 400px;
+    width:400px;
+    margin-left: 40px;
+    border-radius:50%;
+
+}
+
+.cardImage{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-left: 25%;
+    margin-top: 25%;
+    margin-bottom: 0px;
+}
+
+.card p{
+    margin-left: 24%;
+}

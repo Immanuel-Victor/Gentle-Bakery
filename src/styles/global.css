@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+
+*{
+    text-decoration: none;
+    font-family: 'Dancing Script', cursive;
+    color: white;
+}
+
+
+nav{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+}
+
+nav .divLinks{
+    display: inline-block;
+    text-align: right;
+}
+
+nav a{
+    display: inline-block;
+    margin-left:20px;
+    
+}
+
+
+body,html{
+    min-height: 100%;
+    font-family: 'Dancing Script', cursive;
+}
+
+html{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(/cupcake.jpg);
+    height:100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 30px;
+    color: white;
+
+}
+
+h1{
+    text-align:center;
+    font-size: 36px;
+}
+
+footer{
+    margin-top: 20px;
+    background-color: rgba(0,0,0,0.3);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
